@@ -10,4 +10,4 @@ run_worker_first = ["/api/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "zynox-db"
-database_id = "REPLACE_WITH_YOUR_DATABASE_ID"
+database_id = "55cdfb60-e965-4628-bea8-a615ff314652"
