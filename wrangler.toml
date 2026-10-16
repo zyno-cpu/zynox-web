@@ -1,4 +1,4 @@
-name = "zynox"
+name = "zynox-web"
 main = "src/index.js"
 compatibility_date = "2025-09-01"
 
@@ -6,6 +6,10 @@ compatibility_date = "2025-09-01"
 directory = "./public"
 binding = "ASSETS"
 run_worker_first = ["/api/*"]
+
+[vars]
+SENDER_NAME = "Zynox"
+SENDER_EMAIL = "mr.rajchauhan09@gmail.com"
 
 [[d1_databases]]
 binding = "DB"
